@@ -1,0 +1,11 @@
+import os
+import subprocess
+
+#python doesnt actually run shell commmands
+#instead we can use python to run shell script files
+
+script_dir = os.path.dirname(__file__)
+
+script_absolute_path = os.path.join(script_dir + "script.sh")
+
+subprocess.call(['sh', script_absolute_path])

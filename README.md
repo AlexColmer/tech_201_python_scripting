@@ -20,17 +20,20 @@
 import sys 
 print(sys.version)
 ```
+this line of code checks where in your system that you are 
 - Os
 ```python
 import os
 
 print(os.getcwd())
 ```
+with this line of code you can chnage the directory that you are working in
 - Subprocesses
 ```python
 import subprocess
-subprocess.run(["python", "hello_world.py"])
+subprocess.run(["python", "hello_world.py"]) # print out hello world
 ```
+This will run a program fro ma different file. 
 
 - Math
 ```python
@@ -39,14 +42,17 @@ pi = math.pi
 pi_string = str(pi)
 print("The value of pi is " + pi_string)
 ```
+This allows you to use the math library to have much more functionality when using maths.
 - Random
 ```python
 randum = random.randrange(1, 10)
 print(randum)
 ```
+This will produce a random number. 
+DateTime
 ```python
 import datetime
 whatisthedate = datetime.datetime.now()
 print(whatisthedate)
 ```
-- Json
+this will allow us to see the exact date and time. 
